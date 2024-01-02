@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');/* goto "fonts.google.com" open link open "Roboto" add regular ,bold,thin and click on import copy the link and paste it*/
+ *{
+    padding: 0;
+    margin: 0;
+    background: black;
+    color: white;
+    font-family: "Roboto";
+}
+.header{
+    display: flex; /*aligns elements side by side*/
+    justify-content: space-between;/*creats space between div class left and right*/
+
+}
+.left{
+    display: flex;
+}
+
+i{
+    margin: 0 0.8rem;
+}
+.profileInfo{
+    display: flex;
+}
+.profileInfo img{
+    border-radius: 50%;
+    width: 70px;
+}
+.profilestatus{
+    display: flex;
+}
+.stat{
+    text-align: center;
+    justify-content: space-evenly;
+    padding:0.8rem;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.bio{
+    padding:0.8rem;
+}
+.bio span{
+    font-size:0.8rem ;
+    font-weight: lighter;
+    color: darkgray;
+}
+.bio p{
+    font-size: 0.9rem;
+}
+.highlights{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.story img{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.story{
+    text-align: center;
+}
+.posts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 1rem;
+    grid-gap: 0.2rem;
+}
+.posts img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
